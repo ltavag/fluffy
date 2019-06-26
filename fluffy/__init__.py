@@ -1,6 +1,6 @@
-from .lib.schema_generator import SchemaGenerator
-from .lib.valid_schema import TableSchema
-from .lib.postgres_validator import PostgresValidator
+from lib.schema_generator import SchemaGenerator
+from lib.valid_schema import TableSchema
+from lib.postgres_validator import PostgresValidator
 
 
 def create_validator(cursor,
